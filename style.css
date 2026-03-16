@@ -97,6 +97,21 @@ header {
     animation-delay: 1s;
 }
 
+.impact-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0 10px;
+}
+
+.impact-highlights span {
+    border: 1px solid #0ef;
+    color: #0ef;
+    border-radius: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
 .profile-pic {
     width: 400px;
     height: 400px;
@@ -238,6 +253,44 @@ header {
 
 .skills, .portfolio, .contact {
     padding: 30px 11%;
+}
+
+.projects {
+    padding: 30px 11%;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #051129;
+    border: 1px solid rgba(0, 238, 255, 0.25);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.project-card h3 {
+    color: #0ef;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.project-card span {
+    color: #9fdde2;
+    font-size: 14px;
 }
 
 .skills h2, .portfolio h2, .contact h2 {
